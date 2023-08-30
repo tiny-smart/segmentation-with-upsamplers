@@ -1,6 +1,6 @@
 Semantic segmentation with dynamic upsamplers, based on [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
 
-For example, to train UperNet-R50 with [CARAFE](https://github.com/myownskyW7/CARAFE):
+For example, to train UperNet-R50 with [CARAFE](https://github.com/myownskyW7/CARAFE) in FPN:
 
 ```shell
 bash dist_train.sh configs/dynamic_upsampling/upernet_r50_4xb4_carafe-80k_ade20k-512x512.py 4
